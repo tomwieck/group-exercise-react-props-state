@@ -1,11 +1,11 @@
 interface ChuckJokeProps {
-
+	joke: string;
 }
 
-const ChuckJoke: React.FC<ChuckJokeProps> = () => {
+const ChuckJoke: React.FC<ChuckJokeProps> = ({joke}) => {
 
 	return (
-		<p></p>
+		<p>{joke}</p>
 	)
 }
 
